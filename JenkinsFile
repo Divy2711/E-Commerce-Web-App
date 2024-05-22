@@ -8,7 +8,7 @@ pipeline {
 	stages {
         stage('Checkout'){
             steps{
-            git 'https://github.com/Divy2711/Temperature-Viewer.git'
+            git 'https://github.com/Divy2711/E-commerce-web-app.git'
             }
         }
 		stage('Build'){
